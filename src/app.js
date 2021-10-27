@@ -14,3 +14,7 @@ const App = () => {
 };
 
 ReactDOM.render(<App />, document.getElementById("root"));
+
+// rendering Pet with name, animal and breed arguemnets
+
+// rendering SearchParams
