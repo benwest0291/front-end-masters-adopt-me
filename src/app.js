@@ -7,13 +7,16 @@ const App = () => {
     <div>
       <h1>Adopt Me!</h1>
       <SearchParams />
-      {/* <Pet name="Tiggs" animal="cat" breed="mix" />
-      <Pet name="Simba" animal="cat" breed="mix" /> */}
     </div>
   );
 };
 
-ReactDOM.render(<App />, document.getElementById("root"));
+ReactDOM.render(
+  <strictMode>
+    <App />
+  </strictMode>,
+  document.getElementById("root")
+);
 
 // rendering Pet with name, animal and breed arguemnets
 
