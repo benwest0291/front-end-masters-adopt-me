@@ -7,8 +7,8 @@ const App = () => {
     <div>
       <h1>Adopt Me!</h1>
       <SearchParams />
-      <Pet name="Tiggs" animal="cat" breed="mix" />
-      <Pet name="Simba" animal="cat" breed="mix" />
+      {/* <Pet name="Tiggs" animal="cat" breed="mix" />
+      <Pet name="Simba" animal="cat" breed="mix" /> */}
     </div>
   );
 };
